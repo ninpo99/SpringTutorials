@@ -1,0 +1,7 @@
+GET http://localhost:8080/hotels
+Content-Type: application/json
+
+<> 2018-05-21T064147.200.json
+
+###
+

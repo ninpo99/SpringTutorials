@@ -1,0 +1,67 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.0.2.RELEASE)
+
+2018-05-19 14:17:52.204  INFO 8756 --- [           main] r.t.timeservice.TimeServiceApplication   : Starting TimeServiceApplication v0.0.1-SNAPSHOT on Gary-pc with PID 8756 (C:\Users\ninpo99\Documents\CodeDojo\RomanianCoder\time-service-windows\rc-time-service.jar started by GARY-PC$ in C:\Users\ninpo99\Documents\CodeDojo\RomanianCoder\time-service-windows)
+2018-05-19 14:17:52.210  INFO 8756 --- [           main] r.t.timeservice.TimeServiceApplication   : No active profile set, falling back to default profiles: default
+2018-05-19 14:17:52.467  INFO 8756 --- [           main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@64b8f8f4: startup date [Sat May 19 14:17:52 CDT 2018]; root of context hierarchy
+2018-05-19 14:17:55.558  INFO 8756 --- [           main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-05-19 14:17:55.894  INFO 8756 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$44a3154] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-19 14:17:56.891  INFO 8756 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2018-05-19 14:17:56.961  INFO 8756 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-05-19 14:17:56.961  INFO 8756 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-05-19 14:17:56.978  INFO 8756 --- [ost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Common Files\Microsoft Shared\Microsoft Online Services;C:\Program Files (x86)\Common Files\Microsoft Shared\Microsoft Online Services;C:\app\ninpo99\virtual\product\12.2.0\dbhome_1\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\Skype\Phone\;%JAVA_HOME%\bin;C:\Program Files\apache-maven-3.5.0\bin;C:\Program Files\apache-maven-3.5.0\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;;C:\WINDOWS\System32\OpenSSH\;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;.]
+2018-05-19 14:17:58.052  INFO 8756 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-05-19 14:17:58.053  INFO 8756 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 5612 ms
+2018-05-19 14:17:58.389  INFO 8756 --- [ost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-05-19 14:17:58.400  INFO 8756 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-05-19 14:17:58.404  INFO 8756 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-05-19 14:17:58.404  INFO 8756 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-05-19 14:17:58.404  INFO 8756 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-05-19 14:17:58.960  INFO 8756 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2018-05-19 14:17:59.522  INFO 8756 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2018-05-19 14:17:59.663  INFO 8756 --- [           main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-05-19 14:17:59.735  INFO 8756 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-05-19 14:17:59.960  INFO 8756 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.2.17.Final}
+2018-05-19 14:17:59.964  INFO 8756 --- [           main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2018-05-19 14:18:00.125  INFO 8756 --- [           main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-05-19 14:18:00.696  INFO 8756 --- [           main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2018-05-19 14:18:01.133  INFO 8756 --- [           main] o.h.t.schema.internal.SchemaCreatorImpl  : HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@68267da0'
+2018-05-19 14:18:01.140  INFO 8756 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-05-19 14:18:01.589  INFO 8756 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-19 14:18:02.096  INFO 8756 --- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@64b8f8f4: startup date [Sat May 19 14:17:52 CDT 2018]; root of context hierarchy
+2018-05-19 14:18:02.230  WARN 8756 --- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-05-19 14:18:02.355  INFO 8756 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-05-19 14:18:02.360  INFO 8756 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-05-19 14:18:02.429  INFO 8756 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-19 14:18:02.430  INFO 8756 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-19 14:18:02.621  WARN 8756 --- [           main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2018-05-19 14:18:03.332  INFO 8756 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-05-19 14:18:03.338  INFO 8756 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-05-19 14:18:03.360  INFO 8756 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-05-19 14:18:03.393  INFO 8756 --- [           main] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+Rc Time Service : Sat May 19 14:18:03 CDT 2018
+2018-05-19 14:18:03.615  INFO 8756 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2018-05-19 14:18:03.633  INFO 8756 --- [           main] r.t.timeservice.TimeServiceApplication   : Started TimeServiceApplication in 12.799 seconds (JVM running for 16.116)
+Rc Time Service : Sat May 19 14:18:08 CDT 2018
+Rc Time Service : Sat May 19 14:18:13 CDT 2018
+Rc Time Service : Sat May 19 14:18:18 CDT 2018
+Rc Time Service : Sat May 19 14:18:23 CDT 2018
+Rc Time Service : Sat May 19 14:18:28 CDT 2018
+Rc Time Service : Sat May 19 14:18:33 CDT 2018
+Rc Time Service : Sat May 19 14:18:38 CDT 2018
+Rc Time Service : Sat May 19 14:18:43 CDT 2018
+Rc Time Service : Sat May 19 14:18:48 CDT 2018
+Rc Time Service : Sat May 19 14:18:53 CDT 2018
+Rc Time Service : Sat May 19 14:18:58 CDT 2018
+Rc Time Service : Sat May 19 14:19:03 CDT 2018
+Rc Time Service : Sat May 19 14:19:08 CDT 2018
+Rc Time Service : Sat May 19 14:19:13 CDT 2018
+Rc Time Service : Sat May 19 14:19:18 CDT 2018

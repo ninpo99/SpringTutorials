@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "Marriot",
+    "classification": 5,
+    "open": true
+  },
+  {
+    "id": 2,
+    "name": "Ibis",
+    "classification": 3,
+    "open": false
+  },
+  {
+    "id": 3,
+    "name": "Golden Tulip",
+    "classification": 4,
+    "open": true
+  }
+]

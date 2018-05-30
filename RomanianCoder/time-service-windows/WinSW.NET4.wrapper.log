@@ -1,0 +1,33 @@
+2018-05-19 14:00:33,833 DEBUG - Starting ServiceWrapper in the CLI mode
+2018-05-19 14:00:34,267 INFO  - Installing the service with id 'rc-time-service'
+2018-05-19 14:00:34,276 FATAL - Unhandled exception
+System.Exception: Installation failure: Service with id 'rc-time-service' already exists
+   at winsw.WrapperService.Run(String[] _args, ServiceDescriptor descriptor)
+   at winsw.WrapperService.Main(String[] args)
+2018-05-19 14:14:02,469 DEBUG - Starting ServiceWrapper in the CLI mode
+2018-05-19 14:14:02,786 INFO  - Installing the service with id 'rc-time-service'
+2018-05-19 14:14:02,865 FATAL - WMI Operation failure: AccessDenied
+WMI.WmiException: AccessDenied
+   at WMI.WmiRoot.BaseHandler.CheckError(ManagementBaseObject result)
+   at WMI.WmiRoot.ClassHandler.Invoke(Object proxy, MethodInfo method, Object[] args)
+   at winsw.WrapperService.Run(String[] _args, ServiceDescriptor descriptor)
+   at winsw.WrapperService.Main(String[] args)
+2018-05-19 14:16:10,621 DEBUG - Starting ServiceWrapper in the CLI mode
+2018-05-19 14:16:10,936 INFO  - Installing the service with id 'rc-time-service'
+2018-05-19 14:16:10,972 DEBUG - Completed. Exit code is 0
+2018-05-19 14:17:47,096 INFO  - Starting ServiceWrapper in the service mode
+2018-05-19 14:17:47,134 INFO  - Starting java -jar C:\Users\ninpo99\Documents\CodeDojo\RomanianCoder\time-service-windows/rc-time-service.jar
+2018-05-19 14:17:47,143 INFO  - Starting java -jar C:\Users\ninpo99\Documents\CodeDojo\RomanianCoder\time-service-windows/rc-time-service.jar
+2018-05-19 14:17:47,200 INFO  - Started process 8756
+2018-05-19 14:17:47,212 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to winsw.DefaultLogAppender
+2018-05-19 14:19:23,141 INFO  - Stopping rc-time-service
+2018-05-19 14:19:23,151 DEBUG - ProcessKill 8756
+2018-05-19 14:19:23,308 INFO  - Found child process: 12104 Name: conhost.exe
+2018-05-19 14:19:23,352 INFO  - Stopping process 12104
+2018-05-19 14:19:23,362 INFO  - Send SIGINT 12104
+2018-05-19 14:19:23,370 WARN  - SIGINT to 12104 failed - Killing as fallback
+2018-05-19 14:19:23,378 INFO  - Stopping process 8756
+2018-05-19 14:19:23,390 INFO  - Send SIGINT 8756
+2018-05-19 14:19:23,397 WARN  - SIGINT to 8756 failed - Killing as fallback
+2018-05-19 14:19:23,406 INFO  - Finished rc-time-service
+2018-05-19 14:19:23,415 DEBUG - Completed. Exit code is 0
